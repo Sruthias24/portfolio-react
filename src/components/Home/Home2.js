@@ -66,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sreejithkm001"
+                  href="https://github.com/Sruthias24"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -86,7 +86,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sreejith-km-027b53226"
+                  href="www.linkedin.com/in/sruthias2"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -94,6 +94,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              {/*
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/sreejith_k__m"
@@ -103,7 +104,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         

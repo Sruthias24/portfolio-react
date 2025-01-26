@@ -69,7 +69,7 @@ function NavBar() {
               >
               <AiOutlineUser style={{ marginBottom: "2px" }} /> {""}About
               </Nav.Link>
-              {/* <DropdownButton
+               {/*<DropdownButton
                 id="dropdown-basic-button"
                 title="About"
                 style={{ margin: "9px" }}
@@ -77,7 +77,7 @@ function NavBar() {
                 <Dropdown.Item href="/about">About Me</Dropdown.Item>
                 <Dropdown.Item href="/education">Education</Dropdown.Item>
                 <Dropdown.Item href="/timeline">Certification</Dropdown.Item>
-              </DropdownButton> */}
+              </DropdownButton>*/} 
               
             </Nav.Item>
 
@@ -87,9 +87,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>

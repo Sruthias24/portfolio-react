@@ -2,14 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import constructionplanner from "../../Assets/Projects/constructionplanner.png";
+import travelog from "../../Assets/Projects/travelog.png";
 
 function Projects() {
+  
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -22,27 +20,42 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard 
-              imgPath={chatify}
+            <ProjectCard
+              imgPath={travelog}
               isBlog={false}
-              title="Online Birth Certificate Management system"
-              description="This is a web application that manages, stores, and retrieves Birth Certificates. This application 
-              allows certain organizations to manage their members' Birth Certificates. The application was 
-              developed using PHP and MySQL Database."
-              ghLink="https://github.com/sreejithkm001/E-BIRTH-CERTIFICATE"
-              demoLink="https://chatify-49.web.app/"
+              title="Travelog"
+              description="Online Bus Ticket Reservation System is a web-based application that works within a file.
+ one network. This project introduces an update to the software program “Online Bus Ticket
+ Reservation System ”as it should be used in the bus system, the area used reserved seats,
+ booking cancellations and various types of route inquiries used for security quick booking.
+ OBTRS is designed to manage and compile a traditional database, ticket booking and bus
+ tracking and departure made 
+ Technologies used-
+backend:php
+database: mysql "
+             
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={constructionplanner}
               isBlog={false}
-              title="Sentiment-Analysis-using-ML"
-              description="Sentiment analysis, an important area in Natural Language Processing, is the process of automatically 
-              detecting affective states of text. Sentiment analysis is widely applied to voice-of- customer materials 
-              such as product reviews in online shopping websites like Amazon, movie reviews or social media."
-              ghLink="https://github.com/sreejithkm001/Sentiment-Analysis-using-ML"
+              title="Construction Planner"
+              description="Construction planner is an online site that encapsulates the work of an architect, 
+civil engineer, designer and contractors under a single roof. A registered user 
+can request to get an elevation of a house based on his wish. User can filter out 
+the architects, based on their works that have already uploaded. The user can 
+select any architect and provide their instruction. The architect works on the 
+instruction and produces a blueprint of the work. If the user is further interested 
+on viewing how the elevation looks like in a 3D version the work can be 
+forwarded to a 3D Designer. Technologies-
+frontend:framework--Bootstrap
+backend:python  
+framework-Django
+Database-MySql
+"
+              ghLink="https://github.com/Sruthias24/construction-planner.git"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -51,13 +64,13 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Portfolio using React JS"
-              description="My personal portfolio web-application build with React JS, React bootstrap, React icons,HTML,CSS." 
+              description="My personal portfolio web-application build with React JS, Reactstrap, React icons,HTML,CSS."
               ghLink="https://github.com/sreejithkm001/Portfolio-ReactJS"
-              
+
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
-          </Row>
+        </Row>
       </Container>
     </Container>
   );

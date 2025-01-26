@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home.jpg";
+
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import homee from "../../Assets/homee.jpg";
+
 
 function Home() {
   return (
@@ -22,7 +24,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Sreejith K M</strong>
+                <strong className="main-name"> Sruthi A S</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -32,7 +34,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={homee}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px"}}

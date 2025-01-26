@@ -13,9 +13,8 @@ function AboutCard() {
         <Card.Body>
           <blockquote className="blockquote mb-0">
             <p style={{ textAlign: "justify" }}>
-              I am Sreejith, from Thrissur, Kerala. I am a fresher. I have
-              completed MCA in the year 2023 from APJ Abdul Kalam Technological
-              University.
+              I am Sruthi, from Palakkad, Kerala. I am a fresher. I have
+              completed MCA in the year 2024 from center for computer science and information technology
             </p>
             {/* <ul>
               <li className="about-activity">
@@ -33,7 +32,7 @@ function AboutCard() {
               "Strive to build things that make a difference!"{" "}
             </p>
 
-            <footer className="blockquote-footer">Sreejith K M</footer>
+            <footer className="blockquote-footer">Sruthi A S</footer>
           </blockquote>
         </Card.Body>
       </Card>

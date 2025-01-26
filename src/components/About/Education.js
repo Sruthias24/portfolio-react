@@ -3,19 +3,19 @@ import "../../style.css";
 /* import './Education.css' */
 function Education() {
   const handlemca=()=>{
-    window.confirm("!!!documents are not yet recieved!!!")
+    window.open('https://drive.google.com/file/d/1iloRI4zYNS9AkRePPqDh-rLqsF6rLO_n/view?usp=sharing','_blank_')
 
   }
-  const handleug=()=>{
-    window.open('https://drive.google.com/file/d/13kEbr0B2DsbJgbs1ZWEmoTfK8496KiHD/view?usp=sharing','_blank_')
+  const handlebsccs=()=>{
+    window.open('https://drive.google.com/file/d/11SMcTkFhBGJnPr0l_dlRLmWtgn5-yj91/view?usp=sharing','_blank_')
 
   }
   const handle12=()=>{
-    window.open('https://drive.google.com/file/d/1GIMtfbygvqz5eq463o01le_IDu9rnnlN/view?usp=sharing','_blank_')
+    window.open('https://drive.google.com/file/d/1E6B44K-5QwTrEvMPQe_Q70ZilR0PYuid/view?usp=sharing','_blank_')
 
   }
   const handle10=()=>{
-    window.open('https://drive.google.com/file/d/1G9rK4ctYyvnT4_I9kxALcU41E_6RzVtr/view?usp=sharing','_blank_')
+    window.open('https://drive.google.com/file/d/1jy6q9peeY_k_5cMPi3dOzArN52pLp88x/view?usp=sharing','_blank_')
 
   }
   return (
@@ -29,10 +29,10 @@ function Education() {
         <i class="icon fas fa-home"></i>
         <div class="details">
           <span class="title">Master of Computer Application</span>
-          <span class="title">2021-2023</span>
+          <span class="title">2022-2024</span>
         </div>
-        <p>Nehru college of engineering and research centre</p>
-        <p>APJ Abdul Kalam Technological University</p>
+        <p>Center for Computer Science and Information Technology</p>
+        <p>University of calicut</p>
         <div class="bottom">
           <button onClick={handlemca}>click me</button>
           {/* <i>- Someone famous</i> */}
@@ -44,12 +44,12 @@ function Education() {
         <i class="icon fas fa-star"></i>
         <div class="details">
           <span class="title">Bsc Computer Science</span>
-          <span class="title">2017-2020</span>
+          <span class="title">2018-2021</span>
         </div>
         <p>Mount Seena College of Arts and Science</p>
         <p>University of Calicut</p>
         <div class="bottom">
-        <button onClick={handleug}>click me</button>
+        <button onClick={handlebsccs}>click me</button>
           {/* <i>- Someone famous</i> */}
         </div>
       </section>
@@ -58,11 +58,11 @@ function Education() {
       <section>
         <i class="icon fas fa-rocket"></i>
         <div class="details">
-          <span class="title">Higher Secondary</span>
-          <span class="title">2015-2017</span>
+          <span class="title"> Higher Secondary</span>
+          <span class="title">2016-2018</span>
         </div>
-        <p>Seventh day Adventist Higher Secondary School</p>
-        <p>Indian School Certificate (ISC)</p>
+        <p>Government Vocational Higher Secondary School</p>
+        <p>The Directorate of Higher Education (DHSE)</p>
         <div class="bottom">
         <button onClick={handle12}>click me</button>
           {/* <i>- Someone famous</i> */}
@@ -74,10 +74,10 @@ function Education() {
         <i class="icon fas fa-globe"></i>
         <div class="details">
           <span class="title">Matriculation</span>
-          <span class="title">2005-2015</span>
+          <span class="title">2006-2016</span>
         </div>
-        <p>Seventh day Adventist Higher Secondary School</p>
-        <p>Indian Certificate of Secondary Education (ICSE)</p>
+        <p>Mount Seena Public School</p>
+        <p>Central Board  of Secondary Education (CBSE)</p>
         <div class="bottom">
         <button onClick={handle10}>click me</button>
          {/*  <i>- Someone famous</i> */}

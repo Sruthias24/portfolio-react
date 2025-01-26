@@ -1,10 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import java from '../../Assets/JAVASCRIPT.png'
-import python from '../../Assets/nptel python.jpg'
-import dbms from '../../Assets/nptel dbms.jpg'
-import git from '../../Assets/GIT.png'
-import django from '../../Assets/Django.png'
+import python from '../../Assets/python.jpg'
+import git from '../../Assets/git.png'
+import react from '../../Assets/react.png'
 import { Container } from 'react-bootstrap';
 
 
@@ -13,21 +11,7 @@ function Timeline() {
     <Container style={{marginTop:"90px"}}>
       <h4 style={{textAlign:"center",fontSize:"44px",color:"violet",marginTop:"110px"}}>CERTIFICATIONS</h4>
       <Carousel >
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={java}
-          alt="First slide"
-        />
-          <br />
-          <br />
-          <br />  
-          <br />
-          <br />
-        <Carousel.Caption>
-          <h3 style={{fontWeight:"bolder"}}>JAVASCRIPT</h3>
-        </Carousel.Caption>
-      </Carousel.Item>
+      
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -61,7 +45,7 @@ function Timeline() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={dbms}
+          src={react}
           alt="Second slide"
         />
           <br />
@@ -70,13 +54,13 @@ function Timeline() {
           <br />
           <br />
         <Carousel.Caption>
-        <h3 style={{fontWeight:"bolder"}}>Database Management System</h3>
+        <h3 style={{fontWeight:"bolder"}}>React</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={django}
+          src={python}
           alt="Third slide"
         />
           <br />
