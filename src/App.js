@@ -42,6 +42,7 @@ function App() {
           <Route path="/timeline" element={<Timeline/>} />
           <Route path="/education" element={<Education/>} />
           <Route path="/project" element={<Projects />} />
+          
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
