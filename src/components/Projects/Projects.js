@@ -65,7 +65,7 @@ Database-MySql
               isBlog={false}
               title="Portfolio using React JS"
               description="My personal portfolio web-application build with React JS, Reactstrap, React icons,HTML,CSS."
-              ghLink="https://github.com/sreejithkm001/Portfolio-ReactJS"
+              ghLink="https://sruthias24.github.io/personal-portfolio/"
 
               demoLink="https://blogs.soumya-jit.tech/"
             />
