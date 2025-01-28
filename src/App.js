@@ -38,7 +38,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/personal-portfolio" element={<Home />} />
+          <Route path="/personalportfolio-react" element={<Home />} />
           <Route path="/timeline" element={<Timeline/>} />
           <Route path="/education" element={<Education/>} />
           <Route path="/project" element={<Projects />} />
